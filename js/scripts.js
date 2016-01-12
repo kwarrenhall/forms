@@ -1,11 +1,13 @@
 $(document).ready(function() {
   $("button#Meow").click(function() {
-    $("ul").prepend("<li>Meow!</li>");
-
+    $("ul#cat").prepend("<li>Meow!</li>");
+  //   $("ul#dog").prepend("<li>Roof!</li>");
+  //
   });
 
   $("button#Roof").click(function() {
-    $("ul").prepend("<li>roof!</li>");
+    $("ul#dog").prepend("<li>Roof!</li>");
+    // $("ul#cat").prepend("<li>Meow!</li>");
 
 });
 
