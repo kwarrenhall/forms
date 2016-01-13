@@ -10,25 +10,28 @@
   </head>
   <body>
       <div class="container">
+        <div class="jumbotron">
         <h1>Portland Hotel Booking Information</h1>
         <p>Welcome to Portland Hotel! Please fill out your travel information below to book a room with us.</p>
+        </div>
         <div id="blanks">
+
           <form>
             <div class="form-group">
               <label for="person1">Your Name</label>
-              <input id="person1" class="form-control" type="text">
+              <input id="person1" class="form-control" type="text" placeholder="Type your name here">
             </div>
             <div class="form-group">
               <label for="date1">Arrival Date</label>
-              <input id="date1" class="form-control" type="text">
+              <input id="date1" class="form-control" type="text" placeholder="Enter your arrival date here">
             </div>
             <div class="form-group">
               <label for="date2">Departure Date</label>
-              <input id="date2" class="form-control" type="text">
+              <input id="date2" class="form-control" type="text" placeholder="Enter your departure date here">
             </div>
             <div class="form-group">
               <label for="requests">Special Requests</label>
-              <input id="requests" class="form-control" type="text">
+              <input id="requests" class="form-control" type="text" placeholder="Enter special requests here">
             </div>
 
             <button type="submit" class="btn">Show me Confirmation</button>
@@ -37,7 +40,7 @@
 
         <div id="story">
           <h1>Confirmation</h1>
-          <p>Congradulations! <span class="person1"></span> you will be arriving on:<span class="date1"></span> leaving on: <span class="date2"></span> You have made the following special requests: <span class="requests"></span>.</p>
+          <p>Congradulations! <span class="person1"></span> you will be arriving on:<span class="date1"></span> leaving on: <span class="date2"></span> You have made the following special requests: <span class="requests"></span></p>
         </div>
       </div>
     </body>
